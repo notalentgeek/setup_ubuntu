@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "started update_and_install_pip_packages.sh"
 

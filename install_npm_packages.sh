@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "started install_npm_packages.sh"
 

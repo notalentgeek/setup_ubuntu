@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "started install_curl_and_set_repositories_from_curl.sh"
 

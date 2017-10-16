@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "started install_apt_packages_with_interactive_cli.sh"
 

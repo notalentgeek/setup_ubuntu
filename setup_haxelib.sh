@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "started setup_haxelib.sh"
 
