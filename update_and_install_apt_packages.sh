@@ -42,5 +42,7 @@ yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install shutter
 yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install sublime-text
 yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install texstudio
 yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install thunderbird
+yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install vagrant
+yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install virtualbox
 
 echo "finished update_upgrade_and_install_package.sh"
