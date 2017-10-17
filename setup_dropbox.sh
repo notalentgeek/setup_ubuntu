@@ -2,13 +2,11 @@
 
 echo "started setup_dropbox.sh"
 
-# Add command into .bashrc file.
-echo "" >> ~/.profile &&
-echo "# Fix for Dropbox Xubuntu indicator plugin error." >> ~/.profile &&
-echo "sleep 15 && dropbox stop && env DBUS_SESSION_BUS_ADDRESS="" dropbox start -i" >> ~/.profile &&
+# Stop Dropbox from auto start when system boot.
+dropbox autostart n
 
-# Run this twice because the first time it closes Dropbox service.
-/bin/bash -c "sleep 15 && dropbox stop && env DBUS_SESSION_BUS_ADDRESS="" dropbox start -i" &&
-/bin/bash -c "sleep 15 && dropbox stop && env DBUS_SESSION_BUS_ADDRESS="" dropbox start -i" &&
+# Add command into .bashrc file.
+echo "# A fix for Dropbox Xubuntu indicator plugin error." >> ~/.profile
+echo '/bin/bash -c "sleep 15 && dropbox stop && dbus-launch dropbox start" &' >> ~/.profile
 
 echo "finished setup_dropbox.sh"
