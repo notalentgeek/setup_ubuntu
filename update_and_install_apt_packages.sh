@@ -12,6 +12,7 @@ yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install audacity
 yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install bleachbit
 yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install blender
 yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install chromium-browser
+yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install composer
 yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install dia
 yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install docker
 yes | sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install docker-compose
